@@ -14,4 +14,7 @@ public abstract class Animal {
                 ", specialCare='" + specialCare + '\'' +
                 '}';
     }
+
+
+
 }
