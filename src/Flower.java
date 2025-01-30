@@ -1,9 +1,12 @@
+import java.util.ArrayList;
+
 public abstract class Flower {
 
     protected String name;
     protected double price;
     protected double neededArea;
     protected double chanceOfGrowth;
+    protected boolean vyrostla;
 
     @Override
     public String toString() {
@@ -22,4 +25,12 @@ public abstract class Flower {
         this.neededArea = neededArea;
     }
 public abstract double zavlazeni();
+
+    public boolean isVyrostla() {
+        return vyrostla;
+    }
+
+    public void setVyrostla(boolean vyrostla) {
+        this.vyrostla = vyrostla;
+    }
 }
