@@ -15,4 +15,10 @@ public abstract class Flower {
                 '}';
     }
 
+    public Flower(String name, double price, double chanceOfGrowth, double neededArea) {
+        this.name = name;
+        this.price = price;
+        this.chanceOfGrowth = chanceOfGrowth;
+        this.neededArea = neededArea;
+    }
 }
