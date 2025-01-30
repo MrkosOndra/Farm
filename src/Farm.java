@@ -5,9 +5,9 @@ public class Farm {
     ArrayList<Flower> kytky= new ArrayList<>();
 
     public String Zasazeni(Flower r) {
-        if(volnaplocha>r.chanceOfGrowth) {
+        if(volnaplocha>r.neededArea) {
             kytky.add(r);
-            volnaplocha-=r.chanceOfGrowth;
+            volnaplocha-=r.neededArea;
         }
         return "kytka byla zasazena";
     }
