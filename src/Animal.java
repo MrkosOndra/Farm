@@ -21,4 +21,5 @@ public abstract class Animal {
         this.size = size;
         this.specialCare = specialCare;
     }
+    public abstract String Pohlazeni();
 }
