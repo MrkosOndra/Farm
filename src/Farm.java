@@ -21,11 +21,11 @@ public class Farm {
         }
         public String NakupZvirete(Animal a){
         Zviratka.add(a);
-        return "koupil jsi zvire";
+        return "koupil jsi zvire!";
         }
         public String ProdejZvirete(Animal a){
         Zviratka.remove(a);
-        return "prodal jsi zvire";
+        return "prodal jsi zvire!";
         }
 
 
