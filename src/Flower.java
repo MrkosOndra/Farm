@@ -21,4 +21,5 @@ public abstract class Flower {
         this.chanceOfGrowth = chanceOfGrowth;
         this.neededArea = neededArea;
     }
+public abstract double zavlazeni();
 }
